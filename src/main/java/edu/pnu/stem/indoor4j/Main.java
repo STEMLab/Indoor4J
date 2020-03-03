@@ -1,4 +1,4 @@
-package test;
+package edu.pnu.stem.indoor4j;
 
 import java.io.File;
 import java.io.FileReader;
