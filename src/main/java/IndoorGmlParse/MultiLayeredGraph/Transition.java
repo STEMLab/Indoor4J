@@ -12,7 +12,7 @@ public class Transition {
 	private Name name;
 	private BoundedBy boundedBy;
 	private Weight weight;
-	private XmlLink connects;
+	private List<XmlLink> connects;
 	private Geometry geometry;
 
 	public String getId() {
@@ -59,15 +59,16 @@ public class Transition {
 	public void setWeight(Weight weight) {
 		this.weight = weight;
 	}
-
-	public XmlLink getConnects() {
+	
+	public List<XmlLink> getConnects() {
 		return connects;
 	}
-
+	
 	@XmlElement(name = "connects", namespace = "http://www.opengis.net/indoorgml/1.0/core")
-	public void setConnects(XmlLink connects) {
+	public void setConnects(List<XmlLink> connects) {
 		this.connects = connects;
 	}
+
 
 	public Geometry getGeometry() {
 		return geometry;

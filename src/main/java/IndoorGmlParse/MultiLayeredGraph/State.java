@@ -13,7 +13,7 @@ public class State {
 	private Name name;
 	private BoundedBy boundedBy;
 	private XmlLink duality;
-	private XmlLink connects;
+	private List<XmlLink> connects;
 	private Geometry geometry;
 
 	public String getId() {
@@ -61,12 +61,12 @@ public class State {
 		this.duality = duality;
 	}
 
-	public XmlLink getConnects() {
+	public List<XmlLink> getConnects() {
 		return connects;
 	}
-
+	
 	@XmlElement(name = "connects", namespace = "http://www.opengis.net/indoorgml/1.0/core")
-	public void setConnects(XmlLink connects) {
+	public void setConnects(List<XmlLink> connects) {
 		this.connects = connects;
 	}
 
