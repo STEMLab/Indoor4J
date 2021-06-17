@@ -2,11 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.parsing.gml</groupId>
+	<groupId>parsing-gml</groupId>
 	<artifactId>parsing-gml</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- 
-	<dependencies>
+ 	<dependencies>
 		<dependency>
 			<groupId>com.sun.xml.bind</groupId>
 			<artifactId>jaxb-impl</artifactId>
@@ -17,6 +16,20 @@
 			<artifactId>jaxb-core</artifactId>
 			<version>2.2.11</version>
 		</dependency>
+		<dependency>
+		    <groupId>javax.xml.bind</groupId>
+		    <artifactId>jaxb-api</artifactId>
+		    <version>2.3.1</version>
+		</dependency>
 	</dependencies>
-	-->
+	<!-- <dependencies>
+	https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+		<dependency>
+		    <groupId>javax.xml.bind</groupId>
+		    <artifactId>jaxb-api</artifactId>
+		    <version>2.3.1</version>
+		</dependency>
+	</dependencies> -->
+	
+	
 </project>
