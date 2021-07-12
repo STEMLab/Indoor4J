@@ -22,19 +22,21 @@ IndoorGML is an OGC standard for an open data model and XML schema for indoor sp
 
 
 ### Before use this
-1.  Install a java which is more than 1.8 version.
+1.  Install java which is more than 1.8 version.
       - Check this page [oracle jdk download.][jdk_download]
 
 [jdk_download]: https://www.oracle.com/kr/java/technologies/javase-downloads.html
+
 2.  Set up the java environment variable in your computer.
       - If it has done set up when you were installing the java. You can ignore second one.
-3.  Install a gradle
+
+3.  Install gradle
       - Check this page [gradle releases.][gralde_download]
       - It doesn't matter with any version, but I recommend you should install the latest version of Gradle.
 
 [gralde_download]: https://gradle.org/releases/
 
-  4. Set up the gradle environment variable in your computer.
+4. Set up the gradle environment variable in your computer.
 ### How to use this loader
 
 1. Download or clone this project(Indoor4J)
