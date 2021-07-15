@@ -25,17 +25,17 @@ import edu.stem.space.SurfaceMember;
 import edu.stem.space.XmlLink;
 
 @SuppressWarnings("serial")
-public class Extension extends IndoorFeatures {
+public class IndoorFeaturesExtension extends IndoorFeatures {
 	private IndoorFeatures indoorFeatures;
 	private Graph graph;
 	
-	public Extension(IndoorFeatures indoorFeatures) {
+	public IndoorFeaturesExtension(IndoorFeatures indoorFeatures) {
 		super();
 		this.indoorFeatures = indoorFeatures;
 		this.graph = null;
 	}
 	
-	public Extension(String filePath) {
+	public IndoorFeaturesExtension(String filePath) {
 		super();
 		JAXBContext context;
 		try {
@@ -49,7 +49,7 @@ public class Extension extends IndoorFeatures {
 		this.graph = null;
 	}
 	
-	public Extension(FileReader file) {
+	public IndoorFeaturesExtension(FileReader file) {
 		super();
 		JAXBContext context;
 		try {
