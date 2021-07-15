@@ -25,7 +25,7 @@ import edu.stem.space.SurfaceMember;
 import edu.stem.space.XmlLink;
 
 @SuppressWarnings("serial")
-public class IndoorFeaturesExtension extends IndoorFeatures {
+public class IndoorFeaturesExtension {
 	private IndoorFeatures indoorFeatures;
 	private Graph graph;
 	
