@@ -122,7 +122,6 @@ public class IndoorFeaturesExtension extends IndoorFeatures {
 		for (String stateId : vertices.keySet()) {
 			graph.addVertex(stateId, vertices.get(stateId));
 		}
-		System.out.println(graph.getShortestPath("S37", "S40"));
 	}
 	
 	public HashMap<String, Double> getMeterRadiusOfPoint(String layerId, Point point, double minDetectDistance) {
