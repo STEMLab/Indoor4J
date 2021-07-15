@@ -1,4 +1,4 @@
-package edu.stem.indoor;
+package edu.stem.indoor4j;
 
 import java.io.Serializable;
 
